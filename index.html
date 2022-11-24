@@ -8,6 +8,96 @@
     <link rel="stylesheet" href="CSS/main.css" />
   </head>
   <body>
+    <!-- <svg display="none">
+      <sumbol id="star" viewBox="0 0 20 20">
+        <g>
+          <path
+            d="M10 1.3l2.388 6.722h6.412l-5.232 3.948 1.871 6.928-5.439-4.154-5.438 4.154 1.87-6.928-5.233-3.948h6.412l2.389-6.722z"
+          ></path>
+        </g>
+      </sumbol>
+    </svg> -->
+
+    <div class="container">
+      <header class="header">
+        <img class="logo" src="Img/logo.png" alt="Trillo Logo" />
+        <form action="#" class="search">
+          <input
+            class="search__input"
+            type="text"
+            placeholder="Search hotels"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="Img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="Img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">27</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="Img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">183</span>
+          </div>
+          <div class="user-nav__user">
+            <img class="user-nav__user-photo" src="img/user.jpg" />
+            <span class="user-nav__user-name">Jonas</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="Img/sprite.svg#icon-home"></use>
+                </svg>
+                <span class="side-nav__span">Hotel</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="Img/sprite.svg#icon-aircraft-take-off"></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="Img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Car rent</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="Img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+          <div class="legal">
+            &copy; 2022 by trillo (SharperJS).
+            <p>All rights reserved</p>
+          </div>
+        </nav>
+
+        <main class="hotel-view">hotel view</main>
+      </div>
+    </div>
     <script src="scripts/js.js"></script>
   </body>
 </html>
