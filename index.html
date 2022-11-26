@@ -56,7 +56,7 @@
       <div class="content">
         <nav class="sidebar">
           <ul class="side-nav">
-            <li class="side-nav__item">
+            <li class="side-nav__item side-nav__item--active">
               <a href="#" class="side-nav__link">
                 <svg class="side-nav__icon">
                   <use xlink:href="Img/sprite.svg#icon-home"></use>
@@ -95,7 +95,263 @@
           </div>
         </nav>
 
-        <main class="hotel-view">hotel view</main>
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img class="gallery__photo" src="Img/hotel-1.jpg" alt="Hotel 1" />
+            </figure>
+            <figure class="gallery__item">
+              <img class="gallery__photo" src="Img/hotel-2.jpg" alt="Hotel 2" />
+            </figure>
+            <figure class="gallery__item">
+              <img class="gallery__photo" src="Img/hotel-3.jpg" alt="Hotel 3" />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">Hotel Las Palmas</h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="Img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="Img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="Img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="Img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="Img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="Img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Albufeira, Portugal</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">8.6</div>
+              <div class="overview__rating-count">429 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                nisi dignissimos debitis ratione sapiente saepe. Accusantium
+                cumque, quas, ut corporis incidunt deserunt quae architecto
+                voluptate.
+              </p>
+              <p class="paragraph">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                architecto voluptate delectus, inventore iure aliquid aliquam.
+              </p>
+
+              <ul class="list">
+                <li class="list__item">Close to the beach</li>
+                <li class="list__item">Breakfast included</li>
+                <li class="list__item">Free airport shuttle</li>
+                <li class="list__item">Free wifi in all rooms</li>
+                <li class="list__item">Air conditioning and heating</li>
+                <li class="list__item">Pets allowed</li>
+                <li class="list__item">We speak all languages</li>
+                <li class="list__item">Perfect for families</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">
+                  Lucy and 3 other friends reccomend this hotel
+                </p>
+                <div class="recommend__friends">
+                  <img src="Img/user-3.jpg" alt="" class="recommend__photo" />
+                  <img src="Img/user-4.jpg" alt="" class="recommend__photo" />
+                  <img src="Img/user-5.jpg" alt="" class="recommend__photo" />
+                  <img src="Img/user-6.jpg" alt="" class="recommend__photo" />
+                </div>
+              </div>
+            </div>
+
+            <div class="user-reviews">rev</div>
+          </div>
+
+          <!--           <div class="description">
+            <div class="description__left">
+              <div class="description__text description__left__content">
+                <p class="description__paragraph">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Culpa dolorum assumenda quae labore, illum, iste blanditiis
+                  cum ipsam, laborum cupiditate doloribus dolorem quaerat.
+                  Officia.
+                </p>
+                <p class="description__paragraph">
+                  Blanditiis voluptate maiores quibusdam vero mollitia ex
+                  asperiores temporibus cupiditate labore quisquam deserunt quae
+                  aspernatur dolor alias adipisci, recusandae nostrum natus
+                  facilis, illo expedita, veritatis placeat cum?
+                </p>
+
+                <div class="description__preference">
+                  <ul class="description__col">
+                    <li class="description__col-item">
+                      <svg class="description__col-icon">
+                        <use
+                          xlink:href="Img/sprite.svg#icon-chevron-thin-right"
+                        ></use></svg
+                      >Close to the beach
+                    </li>
+
+                    <li class="description__col-item">
+                      <svg class="description__col-icon">
+                        <use
+                          xlink:href="Img/sprite.svg#icon-chevron-thin-right"
+                        ></use></svg
+                      >Free airport shuttle
+                    </li>
+
+                    <li class="description__col-item">
+                      <svg class="description__col-icon">
+                        <use
+                          xlink:href="Img/sprite.svg#icon-chevron-thin-right"
+                        ></use></svg
+                      >Air conditioning and heating
+                    </li>
+
+                    <li class="description__col-item">
+                      <svg class="description__col-icon">
+                        <use
+                          xlink:href="Img/sprite.svg#icon-chevron-thin-right"
+                        ></use></svg
+                      >We speak all languages
+                    </li>
+                  </ul>
+                  <ul class="description__col">
+                    <li class="description__col-item">
+                      <svg class="description__col-icon">
+                        <use
+                          xlink:href="Img/sprite.svg#icon-chevron-thin-right"
+                        ></use></svg
+                      >Breakfast included
+                    </li>
+
+                    <li class="description__col-item">
+                      <svg class="description__col-icon">
+                        <use
+                          xlink:href="Img/sprite.svg#icon-chevron-thin-right"
+                        ></use></svg
+                      >Free wifi in all rooms
+                    </li>
+
+                    <li class="description__col-item">
+                      <svg class="description__col-icon">
+                        <use
+                          xlink:href="Img/sprite.svg#icon-chevron-thin-right"
+                        ></use></svg
+                      >Pets allowed
+                    </li>
+
+                    <li class="description__col-item">
+                      <svg class="description__col-icon">
+                        <use
+                          xlink:href="Img/sprite.svg#icon-chevron-thin-right"
+                        ></use></svg
+                      >Perfect for families
+                    </li>
+                  </ul>
+                </div>
+                <div class="description__footer">
+                  <span class="description__like">
+                    Lucy and 3 other friends recommend this hotel
+                  </span>
+                  <div class="description__imgs">
+                    <img
+                      class="description__img description__img-1"
+                      src="img/user-3.jpg"
+                      alt=""
+                      srcset=""
+                    />
+                    <img
+                      class="description__img description__img-2"
+                      src="img/user-4.jpg"
+                      alt=""
+                      srcset=""
+                    />
+                    <img
+                      class="description__img description__img-3"
+                      src="img/user-5.jpg"
+                      alt=""
+                      srcset=""
+                    />
+                    <img
+                      class="description__img description__img-4"
+                      src="img/user-6.jpg"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="description__right">
+              <div class="description__right-content">
+                <div class="feedback">
+                  <svg class="feedback__icon">
+                    <use xlink:href="Img/symbol-defs.svg#icon-left-quote"></use>
+                  </svg>
+
+                  <p class="feedback__text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum cum at voluptas, nostrum earum sit.
+                  </p>
+                  <div class="feedback__footer">
+                    <img
+                      class="feedback__img"
+                      src="Img/user-1.jpg"
+                      alt=""
+                      srcset=""
+                    />
+                    <div class="feedback__spans">
+                      <span class="feedback__name">Nick Smith</span>
+                      <span class="feedback__date">Feb 23rd, 2017 </span>
+                    </div>
+                    <span class="feedback__rating">7.8</span>
+                  </div>
+                </div>
+                <div class="feedback">
+                  <svg class="feedback__icon">
+                    <use xlink:href="Img/symbol-defs.svg#icon-left-quote"></use>
+                  </svg>
+                  <p class="feedback__text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum cum at voluptas, nostrum earum sit.
+                  </p>
+                  <div class="feedback__footer">
+                    <img
+                      class="feedback__img"
+                      src="Img/user-2.jpg"
+                      alt=""
+                      srcset=""
+                    />
+                    <div class="feedback__spans">
+                      <span class="feedback__name">Mary Thomas</span>
+                      <span class="feedback__date">Sep 13th, 2016 </span>
+                    </div>
+                    <span class="feedback__rating">9.3</span>
+                  </div>
+                </div>
+
+                <div class="feedback__footer">
+                  <a href="#" class="btn">Show all &rarr;</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </main>
       </div>
     </div>
     <script src="scripts/js.js"></script>
